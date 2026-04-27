@@ -41,30 +41,33 @@ Split the image (`boy.jpg`) into its Blue, Green, and Red (BGR) channels and dis
 
 ---
 Program Developed By:  
-Name: [Your Name Here]  
+Name: V Rishon Anand  
 
-Register Number: [Your Register Number Here]  
+Register Number: 212224240135 
 
 # Ex. No. 01
 
 ## 1. Read the image ('Eagle_in_Flight.jpg') using OpenCV imread() as a grayscale image.
 ```python
-# YOUR CODE HERE
+img_bgr = cv2.imread("Eagle_in_Flight.jpg",0)
 ```
 
 ## 2. Print the image width, height & Channel.
 ```python
-# YOUR CODE HERE
+img_bgr.shape
 ```
 
 ## 3. Display the image using matplotlib imshow().
 ```python
-# YOUR CODE HERE
+plt.imshow(img_bgr,cmap="gray")
+plt.title("gray image")
+plt.axis("off")
+plt.show()
 ```
 
 ## 4. Save the image as a PNG file using OpenCV imwrite().
 ```python
-# YOUR CODE HERE
+cv2.imwrite('output.jpg',img_bgr)
 ```
 
 ## 5. Read the saved image above as a color image using cv2.cvtColor().
