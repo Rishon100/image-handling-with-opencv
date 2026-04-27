@@ -185,28 +185,9 @@ matrix2 =
 # YOUR CODE HERE
 ```
 ---
-## Technologies Used
-- Python
-- OpenCV
-- NumPy
-- Matplotlib
-
----
-
-## Features
-- Image loading and visualization
-- Brightness adjustment
-- Contrast enhancement
-- Bitwise image operations
-- Channel splitting and visualization
-
----
 
 ## Output
 The program successfully performs image transformations including brightness and contrast adjustments, bitwise operations, and channel separation using OpenCV.
 
 ---
 
-## Author
-**V Rishon Anand**  
-Artificial Intelligence and Machine Learning Student
