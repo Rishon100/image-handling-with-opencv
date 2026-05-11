@@ -304,6 +304,13 @@ plt.show()
 ---
 
 ## Output
+i) Read and Display an Image.
+<img width="638" height="490" alt="Screenshot 2026-05-11 102227" src="https://github.com/user-attachments/assets/bd39678d-39dd-483f-a5d9-4c08ffd13b18" />
+ii) Adjust Image Brightness.
+<img width="1284" height="340" alt="image" src="https://github.com/user-attachments/assets/805c7945-1a55-4bc1-b55d-31066823bee3" />
+iii) Modify Image Contrast.
+<img width="1313" height="299" alt="image" src="https://github.com/user-attachments/assets/d087c5f3-2f0f-4a73-abef-b9ebf90bd737" />
+
 The program successfully performs image transformations including brightness and contrast adjustments, bitwise operations, and channel separation using OpenCV.
 
 ---
